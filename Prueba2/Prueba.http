@@ -1,0 +1,21 @@
+### Obtener todos los usuarios
+GET http://localhost:5207/api/usuario
+
+### Crear un nuevo usuario
+POST http://localhost:5207/api/usuario
+Content-Type: application/json
+
+{
+  "nombre": "Ana Rodriguez"
+}
+
+### Actualizar usuario
+PUT http://localhost:5207/api/usuario/1
+Content-Type: application/json
+
+{
+  "nombre": "Juan Pérez Actualizado"
+}
+
+### Eliminar usuario
+DELETE http://localhost:5207/api/usuario/1
